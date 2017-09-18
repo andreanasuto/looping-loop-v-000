@@ -1,5 +1,7 @@
-def looping
-	#your code here
+def looping(argument)
+	loop do
+  puts "my name is #{argument}"
+  end
 end
 
-#call your method here
+looping("yo")#call your method here
